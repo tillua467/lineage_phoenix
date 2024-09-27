@@ -38,7 +38,8 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    libkeymaster_messages.vendor:64
+    libkeymaster_messages.vendor:64 \
+    liblzma.vendor:64
 
 # Input
 PRODUCT_COPY_FILES += \
