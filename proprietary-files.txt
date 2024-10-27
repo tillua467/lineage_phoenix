@@ -1,4 +1,4 @@
-# These proprietary files are extracted from Redmi K30 4G (codenamed `phoenix`) MIUI V13.0.2.1.40.DEV, unless pinned
+# These proprietary files are extracted from Redmi K30 4G (codenamed `phoenix`) MIUI V13.0.6.0.SGHCNXM, unless pinned
 
 # ADSP modules 
 -vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
@@ -290,6 +290,10 @@ vendor/etc/sdr_config.cfg
 
 # DRM - from sweet V12.5.9.0.RKFMIXM
 -vendor/lib64/liboemcrypto.so|6b8c5ab8cb16b7f42071ddc59ac868fa684cff4e
+-vendor/lib64/libsecureui.so
+-vendor/lib64/libStDrvInt.so
+-vendor/lib64/libsecureui_svcsock.so
+-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # Fingerprint
 -vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.sm6150.so
