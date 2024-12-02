@@ -11,8 +11,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from phoenix device
 $(call inherit-product, device/xiaomi/phoenix/device.mk)
 
+# GMS
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Evolution X Build Type & Maintainer stuff.
+EVO_BUILD_TYPE := Unofficial
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BUILD_APERTURE_CAMERA := false
+
+# Build Fingerprint.
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="raven-user 13 TP1A.221005.002/9012097 release-keys"
+
+    BUILD_FINGERPRINT := google/raven/raven:13/TP1A.221005.002/9012097:user/release-keys
 
 PRODUCT_NAME := lineage_phoenix
 PRODUCT_DEVICE := phoenix
@@ -20,4 +35,4 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi K30
 PRODUCT_MANUFACTURER := Xiaomi
 
-# BUILD_FINGERPRINT := Redmi/phoenix/phoenix:11/RKQ1.200826.002/21.9.28:user/release-keys
+
