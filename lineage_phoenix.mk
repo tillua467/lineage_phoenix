@@ -20,4 +20,4 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi K30
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := Redmi/phoenix/phoenix:11/RKQ1.200826.002/21.9.28:user/release-keys
+# BUILD_FINGERPRINT := Redmi/phoenix/phoenix:11/RKQ1.200826.002/21.9.28:user/release-keys
