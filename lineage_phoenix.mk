@@ -14,6 +14,13 @@ $(call inherit-product, device/xiaomi/phoenix/device.mk)
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# Custom stuff.
+TARGET_BUILD_APERTURE_CAMERA := false
+TARGET_USE_PIXEL_FINGERPRINT := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_ENABLE_BLUR := true
+
 # Evolution X Build Type & Maintainer stuff.
 EVO_BUILD_TYPE := Unofficial
 
