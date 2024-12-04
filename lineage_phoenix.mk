@@ -28,7 +28,7 @@ EVO_BUILD_TYPE := Unofficial
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_BUILD_APERTURE_CAMERA := false
+
 
 # Build Fingerprint.
 PRODUCT_BUILD_PROP_OVERRIDES += \
