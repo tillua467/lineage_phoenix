@@ -126,7 +126,16 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # HVX Interface
 PRODUCT_PACKAGES += \
-    libhvx_interface
+    libhvx_interface \
+    libcdsprpc \
+    libsdsprpc
+
+# Additional HVX dependencies
+PRODUCT_PACKAGES += \
+    liblog \
+    libm \
+    libc
+
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/phoenix/phoenix-vendor.mk)
