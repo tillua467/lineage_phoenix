@@ -121,5 +121,12 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     PhoenixWifiOverlay
 
+# Vendor properties
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
+
+# HVX Interface
+PRODUCT_PACKAGES += \
+    libhvx_interface
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/phoenix/phoenix-vendor.mk)
