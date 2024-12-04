@@ -31,10 +31,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_BUILD_APERTURE_CAMERA := false
 
 # Build Fingerprint.
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="raven-user 13 TP1A.221005.002/9012097 release-keys" \
-    BuildFingerprint=google/raven/raven:13/TP1A.221005.002/9012097:user/release-keys
+    BuildDesc="phoenix-user 11 RKQ1.200826.002 21.9.28 release-keys" \
+    BuildFingerprint=Redmi/phoenix/phoenix:11/RKQ1.200826.002/21.9.28:user/release-keys
+
 
 PRODUCT_NAME := lineage_phoenix
 PRODUCT_DEVICE := phoenix
