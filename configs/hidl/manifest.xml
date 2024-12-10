@@ -21,6 +21,18 @@
             <instance>default</instance>
         </interface>
     </hal>
+
+<hal format="hidl">
+    <name>vendor.qti.hardware.qccvndhal</name>
+    <transport>hwbinder</transport>
+    <version>1.0</version>
+    <interface>
+        <name>IQccvndhal</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+
+
     <hal format="hidl">
         <name>android.hardware.sensors</name>
         <transport>hwbinder</transport>
