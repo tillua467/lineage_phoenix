@@ -17,6 +17,10 @@ $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 PRODUCT_SHIPPING_API_LEVEL := 29
 BOARD_SHIPPING_API_LEVEL := 29
 
+# Libs
+PRODUCT_PACKAGES += \
+    libcrypto_shim
+
 # Audio
 PRODUCT_PACKAGES += \
     libtinycompress
