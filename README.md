@@ -2,7 +2,7 @@ Copyright (C) 2020 The LineageOS Project
 Copyright (C) 2020-2021 Paranoid Android.
 
 Device configuration for Xiaomi Redmi K30 / Poco X2
-=========================================
+==========================================
 
 The Xiaomi Redmi K30 / Poco X2 (codenamed _"phoenix / phoenixin"_) are mid range smartphones from Xiaomi's sub-brand Redmi and Poco, respectively.
 
