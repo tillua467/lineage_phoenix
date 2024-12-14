@@ -19,7 +19,8 @@ BOARD_SHIPPING_API_LEVEL := 29
 
 # Libs
 PRODUCT_PACKAGES += \
-    libcrypto_shim
+    libcrypto_shim \
+    libcrypto.vendor
 
 # Audio
 PRODUCT_PACKAGES += \
